@@ -32,6 +32,7 @@ replay_pid*
 .mvn/
 !.mvn/wrapper/mvnw
 !.mvn/wrapper/mvnw.cmd
+HELP.md
 
 # Environment / sensitive files
 .env
@@ -41,3 +42,24 @@ application.yml
 # OS files
 .DS_Store
 Thumbs.db
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
